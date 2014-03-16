@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Registration</string>
+    <string name="action_settings">Settings</string>
+    <string name="username_tv">Username</string>
+    <string name="password_tv">Password</string>
+    <string name="title_activity_registration">RegistrationActivity</string>
+    <string name="title_activity_frongpage">Front page</string>
+    <string name="nameInput">Name</string>
+    <string name="passInput">Password</string>
+    <string name="rememberPwd">Remember Password</string>
+    <string name="loginText">Log in</string>
+    <string name="title_activity_registration_finished">RegistrationFinished</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

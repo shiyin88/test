@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+       <TextView
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:text="Username" />
+
+       <EditText 
+           android:id="@+id/singupUsername"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"/>
+   
+       <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Password"/>
+       <EditText
+           android:id="@+id/singupPwd"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:inputType="textPassword" />
+  
+       <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Confirm password"/>
+       <EditText
+           android:id="@+id/singupPwd2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:inputType="textPassword" />
+ 
+       <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Email"/>
+	    <EditText
+	       	android:id="@+id/signupEmail"
+	       	android:layout_width="wrap_content"
+	       	android:layout_height="wrap_content"
+	       	android:inputType="textEmailAddress" />
+    
+	<CheckBox
+		android:id="@+id/check"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Accept" />
+	    
+	<LinearLayout  
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:gravity="center"
+	    >
+    
+		<Button
+			android:id="@+id/registration_bt"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Sign up" 
+			android:onClick="signup"/>
+		<TextView 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="         "/>
+		<Button
+			android:id="@+id/cancel"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Cancel" />
+	</LinearLayout>
+</LinearLayout>
+
